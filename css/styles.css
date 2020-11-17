@@ -487,6 +487,16 @@ mark,
   height: auto;
 }
 
+.img-awesome {
+  padding: 0.25rem;
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 2rem;
+}
+
+
+
+
 .figure {
   display: inline-block;
 }
@@ -9769,7 +9779,7 @@ button.bg-dark:focus {
 }
 
 .font-weight-light {
-  font-weight: 300 !important;
+  font-weight: 300 !important; 
 }
 
 .font-weight-lighter {
@@ -10004,6 +10014,7 @@ body {
 
 p {
   line-height: 1.75;
+
 }
 
 .page-section {
@@ -10113,7 +10124,7 @@ img::-moz-selection {
     transition: font-size 0.3s ease-in-out;
   }
   #mainNav .navbar-brand img {
-    height: 2.7rem;
+    height: 3.5rem;
     transition: height 0.3s ease-in-out;
   }
   #mainNav.navbar-shrink {
@@ -10161,16 +10172,18 @@ header.masthead .masthead-heading {
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
+
+
 @media (min-width: 768px) {
   header.masthead {
-    padding-top: 17rem;
+    padding-top: 10rem;
     padding-bottom: 12.5rem;
   }
   header.masthead .masthead-subheading {
-    font-size: 2.25rem;
-    font-style: italic;
+    font-size: 3.8rem;
+    font-style: normal;
     line-height: 2.25rem;
-    margin-bottom: 2rem;
+    margin-bottom: 4rem;
   }
   header.masthead .masthead-heading {
     font-size: 4.5rem;
@@ -10357,6 +10370,7 @@ header.masthead .masthead-heading {
 .timeline .timeline-body > ul,
 .timeline .timeline-body > p {
   margin-bottom: 0;
+  text-align: justify;
 }
 
 @media (min-width: 768px) {
